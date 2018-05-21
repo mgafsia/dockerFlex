@@ -1,0 +1,22 @@
+#conteneur
+{
+  color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*
+.element {
+  margin: auto;
+}
+*/
+
+.element:nth-child(2) {
+  color: aqua;
+  background-color: red;
+  align-self: flex-end;
+}
